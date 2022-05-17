@@ -7,7 +7,7 @@
 #include<linux/uaccess.h> /* thu vien chua cac ham trao doi du lieu giua user va kernel */
 #include <linux/kernel.h>
 
-#define AUTHOR "Thuy Linh"
+#define AUTHOR "Han Kien"
 #define DESC "LAB4_1"
 #define VERSION "01"
 
