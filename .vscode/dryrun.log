@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/handev/Lab-Character-Driver'
+make: Leaving directory '/home/handev/Lab-Character-Driver'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

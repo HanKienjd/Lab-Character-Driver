@@ -1,1 +1,1 @@
-cmd_/home/driver/Desktop/Lab/lab5_1/lab5a1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/driver/Desktop/Lab/lab5_1/lab5a1.ko /home/driver/Desktop/Lab/lab5_1/lab5a1.o /home/driver/Desktop/Lab/lab5_1/lab5a1.mod.o;  true
+cmd_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/handev/Lab-Character-Driver/lab5_1/lab5a1.ko /home/handev/Lab-Character-Driver/lab5_1/lab5a1.o /home/handev/Lab-Character-Driver/lab5_1/lab5a1.mod.o;  true

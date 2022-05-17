@@ -1,8 +1,8 @@
-cmd_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := gcc -Wp,-MMD,/home/handev/Lab-Character-Driver/lab5_1/.lab5a1.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/11/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -gdwarf-5 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -Wall  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"lab5a1"' -DKBUILD_MODNAME='"lab5a1"' -D__KBUILD_MODNAME=kmod_lab5a1 -c -o /home/handev/Lab-Character-Driver/lab5_1/lab5a1.o /home/handev/Lab-Character-Driver/lab5_1/lab5a1.c
+cmd_/home/handev/Lab-Character-Driver/lab6/lab6.o := gcc -Wp,-MMD,/home/handev/Lab-Character-Driver/lab6/.lab6.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/11/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -gdwarf-5 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"lab6"' -DKBUILD_MODNAME='"lab6"' -D__KBUILD_MODNAME=kmod_lab6 -c -o /home/handev/Lab-Character-Driver/lab6/lab6.o /home/handev/Lab-Character-Driver/lab6/lab6.c
 
-source_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := /home/handev/Lab-Character-Driver/lab5_1/lab5a1.c
+source_/home/handev/Lab-Character-Driver/lab6/lab6.o := /home/handev/Lab-Character-Driver/lab6/lab6.c
 
-deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
+deps_/home/handev/Lab-Character-Driver/lab6/lab6.o := \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -662,71 +662,24 @@ deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
     $(wildcard include/config/MODULES_USE_ELF_REL) \
     $(wildcard include/config/MODULES_USE_ELF_RELA) \
   arch/x86/include/asm/orc_types.h \
-  include/linux/fs.h \
-    $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
-    $(wildcard include/config/FS_POSIX_ACL) \
-    $(wildcard include/config/SECURITY) \
-    $(wildcard include/config/CGROUP_WRITEBACK) \
-    $(wildcard include/config/IMA) \
-    $(wildcard include/config/FILE_LOCKING) \
-    $(wildcard include/config/FSNOTIFY) \
-    $(wildcard include/config/FS_ENCRYPTION) \
-    $(wildcard include/config/FS_VERITY) \
-    $(wildcard include/config/EPOLL) \
-    $(wildcard include/config/UNICODE) \
-    $(wildcard include/config/QUOTA) \
-    $(wildcard include/config/BLK_DEV_LOOP) \
-    $(wildcard include/config/FS_DAX) \
-    $(wildcard include/config/BLOCK) \
-    $(wildcard include/config/MIGRATION) \
-  include/linux/wait_bit.h \
-  include/linux/kdev_t.h \
-  include/uapi/linux/kdev_t.h \
-  include/linux/dcache.h \
-  include/linux/rculist.h \
-    $(wildcard include/config/PROVE_RCU_LIST) \
-  include/linux/rculist_bl.h \
-  include/linux/list_bl.h \
-  include/linux/bit_spinlock.h \
-  include/linux/lockref.h \
-    $(wildcard include/config/ARCH_USE_CMPXCHG_LOCKREF) \
-  include/linux/stringhash.h \
-    $(wildcard include/config/DCACHE_WORD_ACCESS) \
-  include/linux/hash.h \
-    $(wildcard include/config/HAVE_ARCH_HASH) \
-  include/linux/path.h \
-  include/linux/list_lru.h \
-    $(wildcard include/config/MEMCG_KMEM) \
-  include/linux/shrinker.h \
-  include/linux/pid.h \
-  include/linux/capability.h \
-  include/uapi/linux/capability.h \
-  include/linux/semaphore.h \
-  include/linux/fcntl.h \
-    $(wildcard include/config/ARCH_32BIT_OFF_T) \
-  include/uapi/linux/fcntl.h \
-  arch/x86/include/generated/uapi/asm/fcntl.h \
-  include/uapi/asm-generic/fcntl.h \
-  include/uapi/linux/openat2.h \
-  include/linux/migrate_mode.h \
-  include/linux/percpu-rwsem.h \
-  include/linux/rcuwait.h \
-  include/linux/sched/signal.h \
-    $(wildcard include/config/SCHED_AUTOGROUP) \
-    $(wildcard include/config/BSD_PROCESS_ACCT) \
-    $(wildcard include/config/TASKSTATS) \
-    $(wildcard include/config/AUDIT) \
-    $(wildcard include/config/STACK_GROWSUP) \
-  include/linux/signal.h \
-    $(wildcard include/config/DYNAMIC_SIGFRAME) \
-  include/linux/signal_types.h \
-    $(wildcard include/config/OLD_SIGACTION) \
-  include/uapi/linux/signal.h \
-  arch/x86/include/asm/signal.h \
-  arch/x86/include/uapi/asm/signal.h \
-  include/uapi/asm-generic/signal-defs.h \
-  arch/x86/include/uapi/asm/siginfo.h \
-  include/uapi/asm-generic/siginfo.h \
+  include/linux/device.h \
+    $(wildcard include/config/ENERGY_MODEL) \
+    $(wildcard include/config/GENERIC_MSI_IRQ_DOMAIN) \
+    $(wildcard include/config/PINCTRL) \
+    $(wildcard include/config/GENERIC_MSI_IRQ) \
+    $(wildcard include/config/DMA_OPS) \
+    $(wildcard include/config/DMA_DECLARE_COHERENT) \
+    $(wildcard include/config/DMA_CMA) \
+    $(wildcard include/config/SWIOTLB) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
+    $(wildcard include/config/DMA_OPS_BYPASS) \
+    $(wildcard include/config/OF) \
+    $(wildcard include/config/DEVTMPFS) \
+    $(wildcard include/config/SYSFS_DEPRECATED) \
+  include/linux/dev_printk.h \
+  include/linux/ratelimit.h \
   include/linux/sched.h \
     $(wildcard include/config/VIRT_CPU_ACCOUNTING_NATIVE) \
     $(wildcard include/config/SCHED_INFO) \
@@ -754,9 +707,11 @@ deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
     $(wildcard include/config/SYSVIPC) \
     $(wildcard include/config/DETECT_HUNG_TASK) \
     $(wildcard include/config/IO_URING) \
+    $(wildcard include/config/AUDIT) \
     $(wildcard include/config/AUDITSYSCALL) \
     $(wildcard include/config/UBSAN) \
     $(wildcard include/config/UBSAN_TRAP) \
+    $(wildcard include/config/BLOCK) \
     $(wildcard include/config/TASK_XACCT) \
     $(wildcard include/config/CPUSETS) \
     $(wildcard include/config/X86_CPU_RESCTRL) \
@@ -770,6 +725,7 @@ deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
     $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
     $(wildcard include/config/BCACHE) \
     $(wildcard include/config/VMAP_STACK) \
+    $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
     $(wildcard include/config/X86_MCE) \
@@ -778,6 +734,9 @@ deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
     $(wildcard include/config/ARCH_TASK_STRUCT_ON_STACK) \
     $(wildcard include/config/DEBUG_RSEQ) \
   include/uapi/linux/sched.h \
+  include/linux/pid.h \
+  include/linux/rculist.h \
+    $(wildcard include/config/PROVE_RCU_LIST) \
   include/linux/sem.h \
   include/uapi/linux/sem.h \
   include/linux/ipc.h \
@@ -824,6 +783,14 @@ deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
   include/linux/latencytop.h \
   include/linux/sched/prio.h \
   include/linux/sched/types.h \
+  include/linux/signal_types.h \
+    $(wildcard include/config/OLD_SIGACTION) \
+  include/uapi/linux/signal.h \
+  arch/x86/include/asm/signal.h \
+  arch/x86/include/uapi/asm/signal.h \
+  include/uapi/asm-generic/signal-defs.h \
+  arch/x86/include/uapi/asm/siginfo.h \
+  include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch.h \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -836,6 +803,80 @@ deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
   arch/x86/include/generated/asm/kmap_size.h \
   include/asm-generic/kmap_size.h \
     $(wildcard include/config/DEBUG_KMAP_LOCAL) \
+  include/linux/energy_model.h \
+  include/linux/sched/cpufreq.h \
+    $(wildcard include/config/CPU_FREQ) \
+  include/linux/sched/topology.h \
+    $(wildcard include/config/SCHED_DEBUG) \
+    $(wildcard include/config/SCHED_MC) \
+    $(wildcard include/config/CPU_FREQ_GOV_SCHEDUTIL) \
+  include/linux/sched/idle.h \
+  include/linux/sched/sd_flags.h \
+  include/linux/ioport.h \
+  include/linux/klist.h \
+  include/linux/pm.h \
+    $(wildcard include/config/VT_CONSOLE_SLEEP) \
+    $(wildcard include/config/PM) \
+    $(wildcard include/config/PM_CLK) \
+    $(wildcard include/config/PM_GENERIC_DOMAINS) \
+  include/linux/overflow.h \
+  include/linux/device/bus.h \
+    $(wildcard include/config/ACPI) \
+  include/linux/device/class.h \
+  include/linux/device/driver.h \
+  arch/x86/include/asm/device.h \
+  include/linux/pm_wakeup.h \
+  include/linux/fs.h \
+    $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
+    $(wildcard include/config/FS_POSIX_ACL) \
+    $(wildcard include/config/CGROUP_WRITEBACK) \
+    $(wildcard include/config/IMA) \
+    $(wildcard include/config/FILE_LOCKING) \
+    $(wildcard include/config/FSNOTIFY) \
+    $(wildcard include/config/FS_ENCRYPTION) \
+    $(wildcard include/config/FS_VERITY) \
+    $(wildcard include/config/EPOLL) \
+    $(wildcard include/config/UNICODE) \
+    $(wildcard include/config/QUOTA) \
+    $(wildcard include/config/BLK_DEV_LOOP) \
+    $(wildcard include/config/FS_DAX) \
+    $(wildcard include/config/MIGRATION) \
+  include/linux/wait_bit.h \
+  include/linux/kdev_t.h \
+  include/uapi/linux/kdev_t.h \
+  include/linux/dcache.h \
+  include/linux/rculist_bl.h \
+  include/linux/list_bl.h \
+  include/linux/bit_spinlock.h \
+  include/linux/lockref.h \
+    $(wildcard include/config/ARCH_USE_CMPXCHG_LOCKREF) \
+  include/linux/stringhash.h \
+    $(wildcard include/config/DCACHE_WORD_ACCESS) \
+  include/linux/hash.h \
+    $(wildcard include/config/HAVE_ARCH_HASH) \
+  include/linux/path.h \
+  include/linux/list_lru.h \
+    $(wildcard include/config/MEMCG_KMEM) \
+  include/linux/shrinker.h \
+  include/linux/capability.h \
+  include/uapi/linux/capability.h \
+  include/linux/semaphore.h \
+  include/linux/fcntl.h \
+    $(wildcard include/config/ARCH_32BIT_OFF_T) \
+  include/uapi/linux/fcntl.h \
+  arch/x86/include/generated/uapi/asm/fcntl.h \
+  include/uapi/asm-generic/fcntl.h \
+  include/uapi/linux/openat2.h \
+  include/linux/migrate_mode.h \
+  include/linux/percpu-rwsem.h \
+  include/linux/rcuwait.h \
+  include/linux/sched/signal.h \
+    $(wildcard include/config/SCHED_AUTOGROUP) \
+    $(wildcard include/config/BSD_PROCESS_ACCT) \
+    $(wildcard include/config/TASKSTATS) \
+    $(wildcard include/config/STACK_GROWSUP) \
+  include/linux/signal.h \
+    $(wildcard include/config/DYNAMIC_SIGFRAME) \
   include/linux/sched/jobctl.h \
   include/linux/sched/task.h \
     $(wildcard include/config/HAVE_EXIT_THREAD) \
@@ -864,7 +905,6 @@ deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
   include/linux/sched/user.h \
     $(wildcard include/config/WATCH_QUEUE) \
   include/linux/percpu_counter.h \
-  include/linux/ratelimit.h \
   include/linux/rcu_sync.h \
   include/linux/delayed_call.h \
   include/linux/uuid.h \
@@ -886,46 +926,6 @@ deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
   include/linux/projid.h \
   include/uapi/linux/quota.h \
   include/linux/nfs_fs_i.h \
-  include/linux/device.h \
-    $(wildcard include/config/ENERGY_MODEL) \
-    $(wildcard include/config/GENERIC_MSI_IRQ_DOMAIN) \
-    $(wildcard include/config/PINCTRL) \
-    $(wildcard include/config/GENERIC_MSI_IRQ) \
-    $(wildcard include/config/DMA_OPS) \
-    $(wildcard include/config/DMA_DECLARE_COHERENT) \
-    $(wildcard include/config/DMA_CMA) \
-    $(wildcard include/config/SWIOTLB) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
-    $(wildcard include/config/DMA_OPS_BYPASS) \
-    $(wildcard include/config/OF) \
-    $(wildcard include/config/DEVTMPFS) \
-    $(wildcard include/config/SYSFS_DEPRECATED) \
-  include/linux/dev_printk.h \
-  include/linux/energy_model.h \
-  include/linux/sched/cpufreq.h \
-    $(wildcard include/config/CPU_FREQ) \
-  include/linux/sched/topology.h \
-    $(wildcard include/config/SCHED_DEBUG) \
-    $(wildcard include/config/SCHED_MC) \
-    $(wildcard include/config/CPU_FREQ_GOV_SCHEDUTIL) \
-  include/linux/sched/idle.h \
-  include/linux/sched/sd_flags.h \
-  include/linux/ioport.h \
-  include/linux/klist.h \
-  include/linux/pm.h \
-    $(wildcard include/config/VT_CONSOLE_SLEEP) \
-    $(wildcard include/config/PM) \
-    $(wildcard include/config/PM_CLK) \
-    $(wildcard include/config/PM_GENERIC_DOMAINS) \
-  include/linux/overflow.h \
-  include/linux/device/bus.h \
-    $(wildcard include/config/ACPI) \
-  include/linux/device/class.h \
-  include/linux/device/driver.h \
-  arch/x86/include/asm/device.h \
-  include/linux/pm_wakeup.h \
   include/linux/cdev.h \
   include/linux/slab.h \
     $(wildcard include/config/DEBUG_SLAB) \
@@ -942,6 +942,6 @@ deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o := \
     $(wildcard include/config/KASAN_VMALLOC) \
     $(wildcard include/config/KASAN_INLINE) \
 
-/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o: $(deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o)
+/home/handev/Lab-Character-Driver/lab6/lab6.o: $(deps_/home/handev/Lab-Character-Driver/lab6/lab6.o)
 
-$(deps_/home/handev/Lab-Character-Driver/lab5_1/lab5a1.o):
+$(deps_/home/handev/Lab-Character-Driver/lab6/lab6.o):
