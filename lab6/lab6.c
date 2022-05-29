@@ -123,7 +123,7 @@ ssize_t my_write(struct file *filp, const char __user *user_buf, size_t len, lof
 
 static int __init lab6_init(void) {
 	pr_info("Hello lab 6\n");
-	alloc_chrdev_region(&lab6.dev_num, 0, 1, "lab6_PhungThiThuy");
+	alloc_chrdev_region(&lab6.dev_num, 0, 1, "lab6_HanKien");
 	lab6.dev_class = class_create(THIS_MODULE, "lab6_class");
 	lab6.dev = device_create(lab6.dev_class, NULL, lab6.dev_num, NULL, "lab6_device");
 	kernel_buffer = kmalloc(MEM_SIZE,GFP_KERNEL);
@@ -144,7 +144,7 @@ static void __exit lab6_exit(void) {
 module_init(lab6_init);
 module_exit(lab6_exit);
 
-MODULE_AUTHOR("Phung Thi Thuy");
+MODULE_AUTHOR("Han Kien");
 MODULE_DESCRIPTION("lab6");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("1.0");

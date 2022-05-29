@@ -1,1 +1,0 @@
-cmd_/home/handev/Lab-Character-Driver/lab6/Module.symvers := sed 's/\.ko$$/\.o/' /home/handev/Lab-Character-Driver/lab6/modules.order | scripts/mod/modpost -m -a  -o /home/handev/Lab-Character-Driver/lab6/Module.symvers -e -i Module.symvers   -T -

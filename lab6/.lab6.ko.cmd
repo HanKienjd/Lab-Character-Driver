@@ -1,1 +1,0 @@
-cmd_/home/handev/Lab-Character-Driver/lab6/lab6.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/handev/Lab-Character-Driver/lab6/lab6.ko /home/handev/Lab-Character-Driver/lab6/lab6.o /home/handev/Lab-Character-Driver/lab6/lab6.mod.o;  true
